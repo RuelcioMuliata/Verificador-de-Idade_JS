@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(196, 153, 90);
+    font: bold 17px Arial;
+    
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+section {
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+}
+
+#foto, #paragrafo {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    padding-top: 20px;
+}
+
+input {
+    padding: 5px;
+}
