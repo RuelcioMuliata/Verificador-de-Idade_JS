@@ -18,24 +18,24 @@ function clicar() {
         if (feminino.checked) {
             genero = 'Female'
             if (idade >= 0 && idade < 10) {
-                fotografia.src = 'menina-5-9.png'
+                fotografia.src = './menina-5-9.png'
             } else if (idade < 20) {
-                fotografia.src = 'menina16-17.png'
+                fotografia.src = './menina16-17.png'
             } else if (idade < 50) {
-                fotografia.src = 'menina36-45.png'
+                fotografia.src = './menina36-45.png'
             } else {
-                fotografia.src = 'menina-46-79.png'
+                fotografia.src = './menina-46-79.png'
             }
         } else if (masculino.checked) {
             genero = 'Male'
             if (idade >= 0 && idade < 10) {
-                fotografia.src = 'menino1-10.png'
+                fotografia.src = './menino1-10.png'
             } else if (idade < 20) {
-                fotografia.src = 'menino11-20.png'
+                fotografia.src = './menino11-20.png'
             } else if (idade < 50) {
-                fotografia.src = 'menino21-40.png'
+                fotografia.src = './menino21-40.png'
             } else {
-                fotografia.src = 'menino60-90.png'
+                fotografia.src = './menino60-90.png'
             }
         }
 
